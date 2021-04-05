@@ -5,3 +5,55 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  font-size: 16px;
+  // background: #0b1d26;
+  color: black;
+  margin: 0 80px;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 56px 0px 104px;
+  .NavBar-Items {
+    display: flex;
+    li {
+      margin-left: 48px;
+    }
+  }
+}
+
+.Hero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  .Hero-Social {
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    height: 68px;
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .Hero-Text {
+    margin-top: 34px;
+    width: 630px;
+    p {
+      font-size: 60px;
+      font-weight: 500;
+    }
+  }
+  .Hero-Indice {
+    text-align: right;
+    height: 144px;
+    border-right: 3px solid rgba($color: #0b1d26, $alpha: 0.5);
+    ul {
+      li {
+        font-size: 18px;
+        opacity: initial;
+        padding: 0 24px 20px 0;
+      }
+    }
+  }
+}
