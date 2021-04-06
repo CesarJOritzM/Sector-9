@@ -8,13 +8,12 @@
 body {
   font-size: 16px;
   background: #0b1d26;
-  color: #fff;
-  margin: 0 80px; }
+  color: #fff; }
 
 .NavBar {
   display: flex;
   justify-content: space-between;
-  margin: 56px 0px 104px; }
+  margin: 56px 80px 104px; }
   .NavBar .NavBar-Items {
     display: flex; }
     .NavBar .NavBar-Items li {
@@ -22,7 +21,8 @@ body {
 
 .Hero {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px 80px; }
   .Hero .Hero-Social {
     display: flex;
     flex-direction: column;
@@ -48,8 +48,7 @@ body {
 .Container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  margin: 100px 0 70px 0;
+  margin: 100px 80px 70px;
   position: relative; }
   .Container .Container-Body {
     display: flex;
@@ -77,7 +76,7 @@ body {
     font-size: 150px;
     position: absolute;
     top: 20px;
-    left: 600px;
+    left: 570px;
     opacity: 10%;
     z-index: 1;
     font-weight: 700; }
@@ -86,11 +85,14 @@ body {
     .Container .Container-Footer img {
       width: 90%;
       height: 600px; }
+  .Container .Container-Footer_invert img {
+    width: 90%;
+    height: 600px; }
 
 .Footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 30px; }
+  margin: 0 80px 30px; }
   .Footer .Copy p {
     margin-top: 24px;
     opacity: 10%;
